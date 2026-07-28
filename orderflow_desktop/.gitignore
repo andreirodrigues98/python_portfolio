@@ -1,0 +1,43 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Credenciais privadas
+credenciais/*.json
+**/credenciais/*.json
+*.pem
+*.key
+
+# Variáveis e segredos
+.env
+.env.*
+
+# Configurações locais
+configuracoes/config.json
+config.json
+
+# Temporários e logs
+temp/
+logs/
+*.log
+*.tmp
+
+# Build e executáveis
+build/
+dist/
+*.spec
+*.exe
+*.msi
+
+# Editores
+.vscode/
+.idea/
+
+# Sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
