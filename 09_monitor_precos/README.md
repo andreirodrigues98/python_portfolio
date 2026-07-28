@@ -203,5 +203,5 @@ Este projeto utiliza um ambiente desenvolvido para práticas educacionais.
 ---
 
 ## 👨‍💻 Autor
-
+Desenvolvido por Andrei Rodrigues
 Projeto desenvolvido como parte do meu portfólio de estudos em Python.
