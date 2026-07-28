@@ -125,6 +125,6 @@ Durante este projeto foram utilizados:
 
 ---
 
-👨‍💻 Autor
-
-Desenvolvido como parte do meu portfólio de estudos em Python.
+## 👨‍💻 Autor
+Desenvolvido por Andrei Rodrigues
+Projeto desenvolvido como parte do meu portfólio de estudos em Python.
