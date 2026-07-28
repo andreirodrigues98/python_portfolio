@@ -297,5 +297,5 @@ Este projeto utiliza um ambiente criado especificamente para práticas educacion
 ---
 
 ## 👨‍💻 Autor
-
+Desenvolvido por Andrei Rodrigues
 Projeto desenvolvido como parte do meu portfólio de estudos em Python.
