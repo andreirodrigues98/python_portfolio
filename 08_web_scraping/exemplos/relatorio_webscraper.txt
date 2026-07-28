@@ -1,0 +1,170 @@
+========== RESUMO DOS LIVROS ==========
+Quantidade de Livros: 40
+
+Livro mais caro: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991
+Valor: £ 57.25
+
+Livro mais barato: In Her Wake
+Valor: £ 12.84
+
+========== RELATÓRIO DOS LIVROS ==========
+Livro: A Light in the Attic
+Preço: £ 51.77
+Estoque: In stock
+
+Livro: Tipping the Velvet
+Preço: £ 53.74
+Estoque: In stock
+
+Livro: Soumission
+Preço: £ 50.10
+Estoque: In stock
+
+Livro: Sharp Objects
+Preço: £ 47.82
+Estoque: In stock
+
+Livro: Sapiens: A Brief History of Humankind
+Preço: £ 54.23
+Estoque: In stock
+
+Livro: The Requiem Red
+Preço: £ 22.65
+Estoque: In stock
+
+Livro: The Dirty Little Secrets of Getting Your Dream Job
+Preço: £ 33.34
+Estoque: In stock
+
+Livro: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull
+Preço: £ 17.93
+Estoque: In stock
+
+Livro: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics
+Preço: £ 22.60
+Estoque: In stock
+
+Livro: The Black Maria
+Preço: £ 52.15
+Estoque: In stock
+
+Livro: Starving Hearts (Triangular Trade Trilogy, #1)
+Preço: £ 13.99
+Estoque: In stock
+
+Livro: Shakespeare's Sonnets
+Preço: £ 20.66
+Estoque: In stock
+
+Livro: Set Me Free
+Preço: £ 17.46
+Estoque: In stock
+
+Livro: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)
+Preço: £ 52.29
+Estoque: In stock
+
+Livro: Rip it Up and Start Again
+Preço: £ 35.02
+Estoque: In stock
+
+Livro: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991
+Preço: £ 57.25
+Estoque: In stock
+
+Livro: Olio
+Preço: £ 23.88
+Estoque: In stock
+
+Livro: Mesaerion: The Best Science Fiction Stories 1800-1849
+Preço: £ 37.59
+Estoque: In stock
+
+Livro: Libertarianism for Beginners
+Preço: £ 51.33
+Estoque: In stock
+
+Livro: It's Only the Himalayas
+Preço: £ 45.17
+Estoque: In stock
+
+Livro: In Her Wake
+Preço: £ 12.84
+Estoque: In stock
+
+Livro: How Music Works
+Preço: £ 37.32
+Estoque: In stock
+
+Livro: Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More
+Preço: £ 30.52
+Estoque: In stock
+
+Livro: Chase Me (Paris Nights #2)
+Preço: £ 25.27
+Estoque: In stock
+
+Livro: Black Dust
+Preço: £ 34.53
+Estoque: In stock
+
+Livro: Birdsong: A Story in Pictures
+Preço: £ 54.64
+Estoque: In stock
+
+Livro: America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana
+Preço: £ 22.50
+Estoque: In stock
+
+Livro: Aladdin and His Wonderful Lamp
+Preço: £ 53.13
+Estoque: In stock
+
+Livro: Worlds Elsewhere: Journeys Around Shakespeareâs Globe
+Preço: £ 40.30
+Estoque: In stock
+
+Livro: Wall and Piece
+Preço: £ 44.18
+Estoque: In stock
+
+Livro: The Four Agreements: A Practical Guide to Personal Freedom
+Preço: £ 17.66
+Estoque: In stock
+
+Livro: The Five Love Languages: How to Express Heartfelt Commitment to Your Mate
+Preço: £ 31.05
+Estoque: In stock
+
+Livro: The Elephant Tree
+Preço: £ 23.82
+Estoque: In stock
+
+Livro: The Bear and the Piano
+Preço: £ 36.89
+Estoque: In stock
+
+Livro: Sophie's World
+Preço: £ 15.94
+Estoque: In stock
+
+Livro: Penny Maybe
+Preço: £ 33.29
+Estoque: In stock
+
+Livro: Maude (1883-1993):She Grew Up with the country
+Preço: £ 18.02
+Estoque: In stock
+
+Livro: In a Dark, Dark Wood
+Preço: £ 19.63
+Estoque: In stock
+
+Livro: Behind Closed Doors
+Preço: £ 52.22
+Estoque: In stock
+
+Livro: You can't bury them all: Poems
+Preço: £ 33.63
+Estoque: In stock
+
