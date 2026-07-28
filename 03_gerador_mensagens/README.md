@@ -33,9 +33,9 @@ Bibliotecas utilizadas apenas da biblioteca padrão do Python.
 ## 📁 Estrutura do projeto
 
 ```
-03_gerador_mensagens_whatsapp/
+03_gerador_mensagens/
 
-│── mensagem_wpp.py
+│── mensagens.py
 │── README.md
 ```
 
@@ -52,13 +52,13 @@ git clone https://github.com/SEU-USUARIO/python-portfolio.git
 Entre na pasta:
 
 ```bash
-cd python-portfolio/03_gerador_mensagens_whatsapp
+cd python-portfolio/03_gerador_mensagens
 ```
 
 Execute:
 
 ```bash
-python mensagem_wpp.py
+python mensagens.py
 ```
 
 ---
