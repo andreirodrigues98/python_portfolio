@@ -1,0 +1,9 @@
+[
+    {
+        "produto": "Soumission",
+        "preco_atual": 50.1,
+        "preco_desejado": 50.0,
+        "atingiu_preco": false,
+        "data_consulta": "14/07/2026 12:52"
+    }
+]
