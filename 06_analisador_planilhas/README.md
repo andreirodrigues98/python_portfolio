@@ -111,5 +111,5 @@ Adicionar:
 ---
 
 ## 👨‍💻 Autor
-
+Desenvolvido por Andrei Rodrigues
 Projeto desenvolvido como parte do meu portfólio de estudos em Python.
