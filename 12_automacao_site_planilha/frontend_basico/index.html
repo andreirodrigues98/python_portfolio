@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automação de Cadastros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TELA DE LOGIN -->
+    <section id="tela-login" class="tela centralizada">
+        <div class="card login-card">
+            <h1>AUTOMAÇÃO DE CADASTROS</h1>
+            <p class="subtitulo">Entre para acessar o sistema</p>
+
+            <form id="form-login">
+                <label for="usuario">Usuário ou e-mail</label>
+                <input
+                    type="text"
+                    id="usuario"
+                    name="usuario"
+                    placeholder="Digite seu usuário"
+                    required
+                >
+
+                <label for="senha">Senha</label>
+                <div class="campo-senha">
+                    <input
+                        type="password"
+                        id="senha"
+                        name="senha"
+                        placeholder="Digite sua senha"
+                        required
+                    >
+                    <button type="button" id="mostrar-senha" class="botao-icone">
+                        Mostrar
+                    </button>
+                </div>
+
+                <label class="lembrar">
+                    <input type="checkbox" id="lembrar-usuario">
+                    Lembrar usuário
+                </label>
+
+                <p id="mensagem-login" class="mensagem-erro"></p>
+
+                <button type="submit" class="botao principal largura-total">
+                    Entrar
+                </button>
+            </form>
+
+            <p class="aviso-teste">
+                Ambiente de teste: qualquer usuário e senha permitem o acesso.
+            </p>
+        </div>
+    </section>
+
+    <!-- TELA PRINCIPAL -->
+    <section id="tela-principal" class="tela escondida">
+        <header class="cabecalho">
+            <div>
+                <h1>AUTOMAÇÃO DE FORMULÁRIOS</h1>
+                <p>Gerenciamento de cadastros para teste com PyAutoGUI</p>
+            </div>
+
+            <div class="usuario-area">
+                <span>Usuário: <strong id="nome-usuario">Visitante</strong></span>
+                <button id="botao-sair" class="botao perigo">Sair</button>
+            </div>
+        </header>
+
+        <main class="conteudo">
+            <section class="resumo">
+                <div class="indicador">
+                    <span>Total</span>
+                    <strong id="total-cadastros">0</strong>
+                </div>
+
+                <div class="indicador">
+                    <span>Pendentes</span>
+                    <strong id="total-pendentes">0</strong>
+                </div>
+
+                <div class="indicador">
+                    <span>Enviados</span>
+                    <strong id="total-enviados">0</strong>
+                </div>
+
+                <div class="indicador">
+                    <span>Erros</span>
+                    <strong id="total-erros">0</strong>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Novo cadastro</h2>
+
+                <form id="form-cadastro">
+                    <div class="grade-formulario">
+                        <div class="campo campo-grande">
+                            <label for="nome">Nome completo *</label>
+                            <input type="text" id="nome" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="telefone">Telefone *</label>
+                            <input type="tel" id="telefone" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="empresa">Empresa *</label>
+                            <input type="text" id="empresa" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="cargo">Cargo *</label>
+                            <input type="text" id="cargo" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="cidade">Cidade *</label>
+                            <input type="text" id="cidade" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="estado">Estado *</label>
+                            <select id="estado" required>
+                                <option value="">Selecione</option>
+                                <option value="AC">AC</option>
+                                <option value="AL">AL</option>
+                                <option value="AP">AP</option>
+                                <option value="AM">AM</option>
+                                <option value="BA">BA</option>
+                                <option value="CE">CE</option>
+                                <option value="DF">DF</option>
+                                <option value="ES">ES</option>
+                                <option value="GO">GO</option>
+                                <option value="MA">MA</option>
+                                <option value="MT">MT</option>
+                                <option value="MS">MS</option>
+                                <option value="MG">MG</option>
+                                <option value="PA">PA</option>
+                                <option value="PB">PB</option>
+                                <option value="PR">PR</option>
+                                <option value="PE">PE</option>
+                                <option value="PI">PI</option>
+                                <option value="RJ">RJ</option>
+                                <option value="RN">RN</option>
+                                <option value="RS">RS</option>
+                                <option value="RO">RO</option>
+                                <option value="RR">RR</option>
+                                <option value="SC">SC</option>
+                                <option value="SP">SP</option>
+                                <option value="SE">SE</option>
+                                <option value="TO">TO</option>
+                            </select>
+                        </div>
+
+                        <div class="campo campo-grande">
+                            <label for="observacoes">Observações</label>
+                            <textarea id="observacoes" rows="4"></textarea>
+                        </div>
+                    </div>
+
+                    <p id="mensagem-cadastro" class="mensagem-sucesso"></p>
+
+                    <div class="acoes-formulario">
+                        <button type="submit" class="botao principal">
+                            Adicionar cadastro
+                        </button>
+                        <button type="button" id="botao-limpar-formulario" class="botao secundario">
+                            Limpar
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="card">
+                <div class="titulo-tabela">
+                    <div>
+                        <h2>Cadastros para envio</h2>
+                        <p>Os registros adicionados aparecem na tabela abaixo.</p>
+                    </div>
+
+                    <div class="acoes-principais">
+                        <button id="botao-iniciar" class="botao principal">
+                            Iniciar automação
+                        </button>
+                        <button id="botao-limpar-lista" class="botao perigo">
+                            Limpar lista
+                        </button>
+                        <button id="botao-exportar" class="botao secundario">
+                            Exportar relatório
+                        </button>
+                    </div>
+                </div>
+
+                <div class="tabela-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nome</th>
+                                <th>E-mail</th>
+                                <th>Telefone</th>
+                                <th>Empresa</th>
+                                <th>Status</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody id="corpo-tabela">
+                            <tr id="linha-vazia">
+                                <td colspan="7" class="sem-registros">
+                                    Nenhum cadastro adicionado.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <div id="modal-visualizar" class="modal escondida">
+            <div class="modal-conteudo">
+                <div class="modal-cabecalho">
+                    <h2>Dados do cadastro</h2>
+                    <button id="fechar-modal" class="botao-icone">Fechar</button>
+                </div>
+                <div id="dados-visualizacao"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
